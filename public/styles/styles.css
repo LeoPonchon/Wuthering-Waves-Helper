@@ -1,0 +1,115 @@
+/* public/styles/styles.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212; /* Couleur de fond sombre */
+    color: #ffffff; /* Couleur du texte blanc */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #212121; /* Couleur de fond pour le header */
+    padding: 2rem 0; /* Augmentation des marges internes pour agrandir le header */
+    text-align: center; /* Centrage du contenu du header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Ombre légère */
+    transition: background-color 0.3s ease; /* Transition de couleur de fond */
+}
+
+header h1 {
+    font-size: 2.5rem; /* Taille de la police augmentée */
+    margin-bottom: 0.5rem; /* Espacement inférieur réduit */
+    color: #ffffff; /* Couleur du texte */
+}
+
+nav {
+    background-color: #333333; /* Couleur de fond pour la navigation */
+    text-align: center; /* Centrage des liens de navigation */
+    padding: 1rem 0; /* Padding ajusté pour espacer la navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Ombre légère */
+    transition: background-color 0.3s ease; /* Transition de couleur de fond */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrage horizontal des éléments */
+}
+
+nav ul li {
+    margin-right: 2rem; /* Espacement entre les éléments de la navbar */
+    transition: transform 0.3s ease; /* Transition pour l'animation de survol */
+}
+
+nav ul li:hover {
+    transform: translateY(-3px); /* Animation de légère élévation au survol */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease; /* Animation de transition */
+}
+
+nav ul li a:hover {
+    background-color: #555555; /* Couleur de fond au survol */
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #333333; /* Couleur de fond pour les sections */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Ombre légère */
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Transition pour l'animation de survol */
+}
+
+section:hover {
+    transform: scale(1.01); /* Animation de légère agrandissement au survol */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #cccccc;
+}
+
+footer {
+    background-color: #212121; /* Couleur de fond pour le footer */
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s ease; /* Transition de couleur de fond */
+}
+
+footer:hover {
+    background-color: #1c1c1c; /* Couleur de fond au survol */
+}
+
+footer p {
+    color: #ffffff;
+}
