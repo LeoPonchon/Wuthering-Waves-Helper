@@ -1,6 +1,6 @@
 # Wuthering Waves Helper
 
-Wuthering Waves Helper est une application web destinée à aider les joueurs de Genshin Impact à optimiser leurs personnages et leurs équipes grâce à des guides détaillés sur les armes, artefacts, talents et synergies d'équipe.
+Wuthering Waves Helper est une application web destinée à aider les joueurs de Wuthering Waves à optimiser leurs personnages et leurs équipes grâce à des guides détaillés sur les armes, artefacts, talents et synergies d'équipe.
 
 ## Prérequis
 
